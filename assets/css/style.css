@@ -1,0 +1,28 @@
+
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+	margin: 0;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.aside-left{
+	float: left;
+	margin: 0 1.5%;
+	width: 30%;
+}
+.section-right {
+	float: right;
+	margin: 0 1.5%;
+	width: 63%;
+}
