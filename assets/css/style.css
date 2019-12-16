@@ -11,6 +11,7 @@ html {
 }
 body{
 	margin: 0;
+	height:100vh;
 }
 .container{
 	max-width: 1200px;
@@ -19,10 +20,23 @@ body{
 .aside-left{
 	float: left;
 	margin: 0 1.5%;
-	width: 30%;
+	width: 25%;
+	height: 85vh;
+	left: 0;
+	right: 0;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
 }
 .section-right {
 	float: right;
 	margin: 0 1.5%;
-	width: 63%;
+	width: 68%;
+}
+.image{
+	display: flex;
+	margin: 5px;
+}
+.photo{
+	margin: 0 auto;
 }
