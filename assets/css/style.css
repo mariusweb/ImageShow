@@ -11,11 +11,24 @@ html {
 }
 body{
 	margin: 0;
-	height:100vh;
+	height: 95vh;
 }
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+}
+.header-container{
+	display: flex;
+	justify-content: center;
+}
+h1,
+h2,
+p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.{
+	font-size: 2rem;
+	font-weight: bold;
 }
 .aside-left{
 	float: left;
@@ -32,11 +45,23 @@ body{
 	float: right;
 	margin: 0 1.5%;
 	width: 68%;
+	height: 85vh;
 }
-.image{
+.small-image{
 	display: flex;
 	margin: 5px;
 }
 .photo{
 	margin: 0 auto;
+}
+.photo-full{
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain
+}
+.full-photo{
+	box-sizing: border-box;
+	width: 67%;
+	height: 60vh;
 }
